@@ -1,0 +1,19 @@
+canvas {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 500px;
+    margin: auto;
+    animation: mymove 5s infinite;
+    border: 5px solid #0a3cda;
+    border-style: dotted;
+    border-radius: 15px 50px;
+    background-image: url(./../images/flappyback.png);
+    background-size: 100% 100%;
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: 10px 20px 30px blue;
+    }
+}
